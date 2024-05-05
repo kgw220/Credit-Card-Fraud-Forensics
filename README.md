@@ -7,3 +7,4 @@ non-important features to avoid multi-collinearity, and I build 9 different mode
 Further extension of this project could look at credit card data from other regions of the world, or subset the data based on features like categories, to see if better performing models are possible with honing down the analysis.
 
 This repo holds the Juypter Notebook file for this project, alongside a knitted PDF of the notebook alongside results for quick reference. I also briefly explain certain concepts in the notebook that may not be well known.
+If you would like to run the notebook, you can using any general environment that supports Juypter notebooks. All the required packages are installed within the notebook, so there is no need to install the packages locally if you do not want to. Additionally, you will have to change the file path for the data files for this project. Install them from the source link at the top of the notebook, and edit the file path accordingly.
