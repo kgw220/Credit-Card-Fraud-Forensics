@@ -11,7 +11,24 @@ I used the dataset linked here: https://www.kaggle.com/datasets/kartik2112/fraud
 I perform initial data wrangling for EDA with various python visualizations. After identifying the most important features, more data wrangling is done to remove
 non-important features to avoid multi-collinearity, and I build 9 different models. I then analyze the performance of each model with a confusion matrix, 3 statistical metrics (precision, recall, and F-1 score), and a cumulative ROC/AUC plot at the end. Ideally, one would use the highest performing model for deployment. 
 
-# Repo Overview & Instructions For Deployment
+I have a few screenshots of the visualizations from the script as a sneak peek below.
+
+#### EDA
+<img width="407" alt="Screenshot_26" src="https://github.com/user-attachments/assets/8e39f982-d232-4cbe-b07a-fb569b07eccc">
+
+<img width="661" alt="Screenshot_27" src="https://github.com/user-attachments/assets/7d06eb75-a0ef-49e9-a8b3-f9ead266e587">
+
+#### Results of Decision Tree Model 
+
+<img width="400" alt="Screenshot_28" src="https://github.com/user-attachments/assets/f8280b11-a82d-457f-b914-25e90461484c">
+
+<img width="379" alt="Screenshot_29" src="https://github.com/user-attachments/assets/a22786b3-8d00-4833-9621-3298fd8b4095">
+
+#### Final Model Results
+
+<img width="435" alt="Screenshot_30" src="https://github.com/user-attachments/assets/eb564a23-d3cd-4212-b3b9-a96970ec0f6d">
+
+## Repo Overview & Instructions For Deployment
 
 This repo holds the Juypter Notebook file for this project, alongside a knitted PDF of the notebook alongside results for quick reference. I also briefly explain certain concepts in the notebook that may not be well known.
 
@@ -19,7 +36,7 @@ If you would like to run the notebook, you can using any general environment tha
 
 However, you will have to change the file path for the data files for this project. Install them from the source link at the top of the notebook, and edit the file path accordingly. 
 
-## Problems
+## Special Note
 
 I was unsuccessful with setting the random seed for reproducible results, so if you run the notebook, you will most likely get slightly different results than what is shown in my knitted PDF.
 
